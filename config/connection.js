@@ -1,6 +1,6 @@
 const { connect, connection } = require('mongoose');
 
-connect('mongodb://localhost/fullnameVirtual', {
+connect('mongodb://localhost/ThoughtsandReactions', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
